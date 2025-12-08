@@ -13,7 +13,7 @@ public class Assignment1_DataTypes {
 		String phone_number="123-456-7890";
 		System.out.println("Person's phone number: "+phone_number);
 		//4. Amount of money in a customer's bank account: 1000.50
-		float money=1000.50f;
+		double money=1000.50f;
 		System.out.println("Amount of money in a customer's bank account: "+money);
 		//5. Person's email address: "john.doe@example.com"
 		String email_address="john.doe@example.com";
@@ -35,7 +35,7 @@ public class Assignment1_DataTypes {
 		short current_year=2023;
 		System.out.println("Current year: "+current_year);
 		//11.Number of followers on a social media platform: 1,000,000
-		int follower_count=1000000;
+		String follower_count="1,000,000";
 		System.out.println("Number of followers on a social media platform: "+follower_count);
 		//12.Rating of a movie: 7.5; 
 		float movie_rating=7.5f;
