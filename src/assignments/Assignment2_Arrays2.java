@@ -86,6 +86,7 @@ public class Assignment2_Arrays2 {
 				result[2][2][5] = "78";
 
 		// Semester 4
+				
 				result[3][0][0] = "Algorithms";
 				result[3][0][1] = "Computer Networks";
 				result[3][0][2] = "resultbase Systems";
