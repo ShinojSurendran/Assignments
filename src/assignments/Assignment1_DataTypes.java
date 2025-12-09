@@ -13,7 +13,11 @@ public class Assignment1_DataTypes {
 		String phone_number="123-456-7890";
 		System.out.println("Person's phone number: "+phone_number);
 		//4. Amount of money in a customer's bank account: 1000.50
+<<<<<<< HEAD
 		double money=1000.50;
+=======
+		double money=1000.50f;
+>>>>>>> 3e404660f18174cd7890aa104b47a004de70f972
 		System.out.println("Amount of money in a customer's bank account: "+money);
 		//5. Person's email address: "john.doe@example.com"
 		String email_address="john.doe@example.com";
