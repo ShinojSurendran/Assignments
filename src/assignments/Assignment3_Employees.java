@@ -13,7 +13,7 @@ name along with their corresponding ID.
 Example: 
 • Employee Name: Bharath, Employee ID: 1234 
 */
-public class Employees {
+public class Assignment3_Employees {
 	
 	static int employee_id1=1234;
 	static int employee_id2=1235;
