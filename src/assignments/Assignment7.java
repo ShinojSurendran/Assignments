@@ -54,7 +54,7 @@ debtToIncomeRatio = 35.0;
 		
 		if (creditScore[empIndex]>=750)
 		{
-			System.out.println("Loan is automatically approved.");
+			System.out.println("Credit Score is greater than 750. Hence, the loan is automatically approved.");
 		}
 		else if ((creditScore[empIndex])<750 && (creditScore[empIndex]>=650))
 		{
@@ -64,23 +64,23 @@ debtToIncomeRatio = 35.0;
 				{
 					if(debtToIncomeRatio[empIndex]<40)
 					{
-						System.out.println("Loan is automatically approved.");
+						System.out.println("Debit to Income Ratio is less than 40. Hence, the loan is automatically approved.");
 					}
 					else
 					{
-						System.out.println("The loan is denied.");	
+						System.out.println("Debit to Income Ratio is greater than or equal to 40. Hence,the loan is denied.");	
 					}
 				}
 				else
 				{
-					System.out.println("The loan is denied.");	
+					System.out.println("Not Employed. Hence, the loan is denied.");	
 				}
 				
 			}
 		}
 		else if (creditScore[empIndex]<650)
 		{
-			System.out.println("The loan is denied.");
+			System.out.println("Credit Score is less than 650. Hence,the loan is denied.");
 		}
 		
 		
