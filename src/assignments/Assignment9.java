@@ -11,23 +11,8 @@ public class Assignment9 {
 		 */
 			
 			//t j=1;
-			int [] values= {12, 34, 11, 36, 87, 98, 93};
-			int [] value1= {};
-			int tempValue=values[0];
-			for (int i=0; i<values.length;i++)
-			{
-				if (tempValue>=values[i+1])
-				{
-					tempValue=values[i+1];
-					//tempValue=values[i];
-				}
-				else
-				{
-					//tempValue=0;
-					tempValue=values[i];
-				}
-			}
-			System.out.println(tempValue);
+			//int [] values= {12, 34, 11, 36, 87, 98, 93};
+			
 	}
 
 	}
